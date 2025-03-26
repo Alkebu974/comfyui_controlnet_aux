@@ -9,7 +9,7 @@ annotator_ckpts_path: "./ckpts"
 custom_temp_path: 
 # ###############################################################################################
 # if you already have downloaded ckpts via huggingface hub into default cache path like: ~/.cache/huggingface/hub, you can set this True to use symlinks to save space
-USE_SYMLINKS: False
+USE_SYMLINKS: True
 # ###############################################################################################
 # EP_list is a list of execution providers for onnxruntime, if one of them is not available or not working well, you can delete that provider from here(config.yaml)
 # you can find all available providers here: https://onnxruntime.ai/docs/execution-providers
